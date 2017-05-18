@@ -1,0 +1,195 @@
+<html>
+<head>
+ <title>JK Sai Drugs And Pharma</title>
+ <link rel="stylesheet" href="JKSai.css" type="text/css" media="all"/>
+ </head>
+ <style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+  position: relative;
+  margin: auto;
+}
+img
+{
+  height:300px;
+  max-width:300px;
+  position:absolute;
+  top:90px;
+  left:-350px;
+}
+
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+<body bgcolor="#E6E6FA" class="parallax">
+<div class="container">
+<header>
+<div style="left: 19px; width: 275px; position: absolute; top: 29px;" >
+
+<h1>
+<span style="font-weight:bold;" class="citylights"><u>JK Sai Drugs And Pharma</u></span>
+</h1>
+</div>
+
+<div style="left: 183px; width: 635px; position: absolute; top: 20px; height: 35px;">
+<ul>
+<li>
+<a href="original2.html">Home</a>
+</li>
+
+<li>
+<a href="AboutPage.html">About Us</a>
+</li>
+
+<li>
+<a href="product.html">Products</a>
+</li>
+
+<li>
+<a href="Talk To Us.html">Talk to Us</a>
+</li>
+</ul>
+
+</header>
+</div>
+<marquee scrolldelay="120" width="250px" style="position:absolute; left:600px"<h3 style="text-align:center; color:#000080" class="burning" > JKSai Drugs and pharma</h3>
+</marquee>
+
+<div style='position:absolute; top:230px; left:190px; background-color:#b3ffff; height:670px; width:900px;'>
+
+
+<form action='Confirmed.html' method='post' name='myForm' onsubmit='return validateForm()'>
+<table style='width:100%;margin:20px;'>
+ <tr>
+   <th>Full Name:</th>
+   <td> <input style='border-width:medium; border-style:solid; border-color:#C0C0C0; type='text' name='name'></td>
+   <th>Street address:</th>
+   <td> <input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='text' name='address' placeholder='address'></td>
+   
+  </tr>
+ <tr>
+  <th> Town:</th>
+  <td><input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='text' name='town'  placeholder='Enter Town'></td>
+  <th> City:</th>
+  <td><input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='text' name='city' placeholder='City'></td>
+ </tr>
+  <tr>
+   <th>Country:</th>
+   <td> <input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='text' name='country' placeholder='Enter Your full name'></td>
+   <th>Post/Zip code:</th>
+   <td> <input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='text' name='Zip' placeholder='address'></td>
+   
+  </tr>
+ <tr>
+  <th> Telephone</th>
+  <td><input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='text' name='telephone' placeholder='999999999'></td>
+  <th> Email:</th>
+  <td><input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='email' name='email' placeholder='xyz@gmail.com'></td>
+ </tr>
+ <tr>
+  <th> Item Name:</th>
+  <td><input style='border-width:medium; border-style:solid; border-color:#C0C0C0;' type='text' name='item' placeholder=''></td>
+  <th style='position:absolute;left:420px;'> Qty:</th>
+  <td style='position:absolute;left:470px; '><input style=' border-width:medium; border-style:solid; border-color:#C0C0C0; width:40px; height:20px;' type='text' name='qty' placeholder='' id='qty2'></td>
+ </tr>
+ </table>
+ 
+ 
+ 
+    <p style='position:absolute; top:260px;left:300px;'> Suggestions:</p>
+	<textarea style='height:160px; width:300px;  padding:4px; margin:2px; position:absolute; top:300px; left:300px; border-width:medium; border-style:solid; border-color:#C0C0C0; ' type='text' placeholder='Message' name='suggestion'></textarea>
+	<input style=' position:absolute; height:40px; top:480px; left:100px; width:70%; background-color:#ff944d;' type='submit' name='corder' value='Confirm Order'/>
+ </a>
+ 
+ 
+<script LANGUAGE='JavaScript'>
+function validateForm()
+  {
+	  var name=document.forms['myForm']['name'].value;
+	  var address=document.forms['myForm']['address'].value;
+	  var town=document.forms['myForm']['town'].value;
+	  var city=document.forms['myForm']['city'].value;
+	  var country=document.forms['myForm']['country'].value;
+	  var zip=document.forms['myForm']['Zip'].value;
+	  var telephone=document.forms['myForm']['telephone'].value;
+	  var email=document.forms['myForm']['email'].value;
+	  var item=document.forms['myForm']['item'].value;
+	  var qty=document.forms['myForm']['qty'].value;
+	  var suggestion=document.forms['myForm']['suggestion']['qty'].value;
+	  
+  if(name=='')
+	  {
+		  alert('All Field must be filled');
+		  return false;
+	  }
+  }
+function getParams(){
+var idx = document.URL.indexOf('?');
+var params = new Array();
+if (idx != -1) {
+var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+for (var i=0; i<pairs.length; i++){
+nameVal = pairs[i].split('=');
+params[nameVal[0]] = nameVal[1];
+}
+}
+return params;
+}
+params = getParams();
+firstname = unescape(params['qty']);
+document.getElementById('qty2').value=firstname;
+
+ 
+</script>
+
+ 
+ 
+ 
+</div>
+
+
+</form>
+
+  
+<footer><h2 style='position:absolute; top:10px; left:230px'> VISIT </h2>
+  <p style='position:absolute; top:60px; left:230px'>68 alok nagar</p>
+  <h3 style='position:absolute; top:10px; left:530px'>Contact us</h3>
+  <h6 style='position:absolute; top:35px; left:530px'>M:7566645005</h6>
+  <h6 style='position:absolute; top:50px; left:530px'>rachitverma.001@gmail.com</h6>
+ </footer>
+
+</div>
+</body>
+</html>
